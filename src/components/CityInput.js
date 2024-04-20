@@ -8,7 +8,7 @@ export default class CityInput extends React.Component {
       const eventKey = e.which ? e.which : e.keyCode;
       const city = e.target.value;
 
-      // check if input contains only letters after Enter was pressed
+      // check if input contains only letters after Enter was press
       if (eventKey === 13) {
         if (/^[a-zA-ZäöüÄÖÜß ]+$/.test(city)) {
           e.target.classList.add('loading');
