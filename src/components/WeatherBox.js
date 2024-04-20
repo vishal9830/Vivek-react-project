@@ -2,7 +2,7 @@ import React from 'react';
 import './WeatherBox.css';
 
 export default class WeatherBox extends React.Component {
-  // returns weekday to a given Date value 
+  // returns weekday to a given Date value  
   getDay = date => {
     let weekday = new Array(7);
     weekday[0] = 'Sunday';
